@@ -243,7 +243,7 @@ function VideoWrapper() {
                     {isSubModelOpen && (
                       <SubModel>
                         <SubModel_wrapper>
-                          <h3>Want to subscribe to this channel</h3>
+                          <h3>Want to subscribe to this channel?</h3>
                           <h4>Sign in to subscribe to this channel</h4>
                           <SubModel_Hr />
                           <SigninButton onClick={() => navigate("/signin")}>
